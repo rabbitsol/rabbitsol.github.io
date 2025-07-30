@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing the skills, experience, and pr
 
 ## 🌟 Live Portfolio
 
-**View the live portfolio:** [https://rabbitsol.github.io/portfolio](https://rabbitsol.github.io/portfolio)
+**View the live portfolio:** [https://rabbitsol.github.io](https://rabbitsol.github.io)
 
 ## 🚀 About Me
 
