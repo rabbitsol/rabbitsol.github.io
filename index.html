@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aysha Fatima - Full-Stack Flutter Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Aysha Fatima</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Aysha Fatima</span>
+                </h1>
+                <h2 class="hero-subtitle">Full-Stack Flutter Developer</h2>
+                <p class="hero-description">
+                    Results-driven developer with 4+ years of experience building high-performance, 
+                    scalable mobile and web applications. Passionate about creating responsive, 
+                    adaptive UIs and integrating secure backend services.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>4+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>20+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Apps</h3>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Apps</h3>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Full-Stack Flutter Developer with over 4 years of experience 
+                        in building high-performance, scalable mobile and web applications. My expertise 
+                        spans from Flutter and Dart to Firebase, RESTful APIs, and state management using 
+                        Provider and GetX.
+                    </p>
+                    <p>
+                        I have a proven ability to lead full project lifecycles from planning to deployment, 
+                        with experience in deploying production backends on EC2 using systemd and Nginx. 
+                        My passion lies in creating responsive, adaptive UIs and integrating secure backend services.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Fast Development</h4>
+                            <p>Quick turnaround with quality code</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Secure Solutions</h4>
+                            <p>Robust security implementations</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-users"></i>
+                            <h4>Team Player</h4>
+                            <p>Excellent collaboration skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <h3>Aysha Fatima</h3>
+                            <p>📍 Pakistan</p>
+                        </div>
+                        <div class="profile-details">
+                            <div class="detail">
+                                <i class="fas fa-envelope"></i>
+                                <span>f3051930@gmail.com</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Masters in Information Technology</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-university"></i>
+                                <span>Virtual University, Pakistan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Dart</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>HTML5/CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Flutter</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Native Android</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>iOS Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend & Services</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>REST APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Stripe</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Tools & Deployment</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>EC2/Nginx</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Play Store</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SSL/Systemd</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Freelancer — Flutter & Backend Developer</h3>
+                            <span class="timeline-date">2019 – Present</span>
+                        </div>
+                        <p class="timeline-location">Remote</p>
+                        <ul class="timeline-achievements">
+                            <li>Built multiple cross-platform apps using Flutter with RESTful API and Firebase integrations</li>
+                            <li>Developed secure reward-based applications integrated with offerwalls (BitLabs, AdGem, CPAlead)</li>
+                            <li>Configured custom FastAPI backends for Stripe, Firebase Auth, admin dashboards, and referral systems</li>
+                            <li>Deployed production backends on EC2 using systemd and Nginx with self-signed SSL</li>
+                        </ul>
+                        <div class="project-highlights">
+                            <h4>Key Projects:</h4>
+                            <div class="project-tags">
+                                <span class="tag">Dream Recorder App</span>
+                                <span class="tag">Rio Router App</span>
+                                <span class="tag">CashRacket Clone</span>
+                                <span class="tag">MuzCheck</span>
+                                <span class="tag">Djowla App</span>
+                                <span class="tag">Music Streaming App</span>
+                                <span class="tag">Automobile Dealer App</span>
+                                <span class="tag">Skin Analyzer</span>
+                                <span class="tag">Libsoor Ecommerce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full-Stack Flutter Intern — Solution Sol</h3>
+                            <span class="timeline-date">Nov 2019 – Dec 2019</span>
+                        </div>
+                        <p class="timeline-location">Lahore, Pakistan</p>
+                        <ul class="timeline-achievements">
+                            <li>Assisted in developing and maintaining cross-platform applications using Flutter and Firebase</li>
+                            <li>Gained hands-on experience in state management and UI responsiveness</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="flutter">Flutter</button>
+                <button class="filter-btn" data-filter="android">Android</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Flutter Projects -->
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dream Recorder App</h3>
+                        <p>AI-powered voice recorder with natural ambient capture and Whisper transcription</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Whisper AI</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Rio Router App</h3>
+                        <p>Flutter-based ISP tool for router management with complete frontend + API integration</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>REST API</span>
+                            <span>Router Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>CashRacket Clone Rewards App</h3>
+                        <p>CPA-integrated reward app with postback, wallet, and referral logic</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>CPAlead</span>
+                            <span>BitLabs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>MuzCheck</h3>
+                        <p>QR Scanner app to check if a product is Muslim manufactured or non-Muslim</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>QR Scanner</span>
+                            <span>Product Verification</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Djowla</h3>
+                        <p>Map pointer app for Muslims of California to show Muslim houses and their contact locations</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Google Maps</span>
+                            <span>Admin Panel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Recognition Attendance System</h3>
+                        <p>AI-powered attendance system using facial recognition</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Face Recognition</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Android Projects -->
+                <div class="project-card" data-category="android">
+                    <div class="project-image">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Call Recorder</h3>
+                        <p>Native Android call recording application</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Android</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="android">
+                    <div class="project-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Food Delivery App</h3>
+                        <p>Complete food delivery solution with ordering and tracking</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Firebase</span>
+                            <span>Google Maps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="android">
+                    <div class="project-image">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Party Planner App</h3>
+                        <p>Event planning and management application</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Projects -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Libsoor Ecommerce</h3>
+                        <p>Recovered backend and helped investigate 404 issues on Flutter frontend</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Hostinger</span>
+                            <span>Backend Recovery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="flutter">
+                    <div class="project-image">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Music & Radio Streaming App</h3>
+                        <p>Full Android Auto compatible music and radio streaming app with background audio playback and voice commands</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Android Auto</span>
+                            <span>Background Audio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="android">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automobile Dealer Management App</h3>
+                        <p>Mobile application for automobile dealers to manage car listings, customer inquiries, and sales data</p>
+                        <div class="project-tech">
+                            <span>Ionic</span>
+                            <span>PHP/MySQL</span>
+                            <span>Field Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>The Complete Flutter Development Bootcamp</h3>
+                    <p>Udemy</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Flutter & Firebase Masterclass</h3>
+                    <p>Udemy</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Dart Programming for Flutter</h3>
+                    <p>Udemy</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Flutter Advanced State Management & Animations</h3>
+                    <p>Udemy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>f3051930@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h3>Education</h3>
+                            <p>Masters in Information Technology</p>
+                            <p>Virtual University, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com/rabbitsol" target="_blank" style="color: #667eea; text-decoration: none;">github.com/rabbitsol</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Aysha Fatima</h3>
+                    <p>Full-Stack Flutter Developer passionate about creating innovative mobile and web solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Flutter & Dart</li>
+                        <li>Firebase</li>
+                        <li>REST APIs</li>
+                        <li>Mobile Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aysha Fatima. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
