@@ -59,7 +59,7 @@ I'm a **Full-Stack Flutter Developer** with expertise in:
 ### **Web & Other Projects**
 - 🎵 **Music & Radio Streaming App** - Android Auto compatible streaming
 - 🚗 **Automobile Dealer Management** - Ionic app with PHP/MySQL backend
-- 🛍️ **Iibsoor Ecommerce** - Backend recovery and maintenance
+- 🛍️ **iibsoor Ecommerce** - Backend recovery and maintenance
 
 ## 💼 Professional Experience
 
